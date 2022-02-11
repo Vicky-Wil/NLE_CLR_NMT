@@ -44,7 +44,7 @@ If you want to visualize the results of different batch size, you can use the ba
 Please cite as:
 
 ```
-@inproceedings{DBLP:conf/emnlp/WangPZL21,
+@inproceedings{CLR_NMT,
   author    = {Weixuan Wang and
                Choon Meng Lee and
                Jianfeng Liu and 
@@ -56,5 +56,4 @@ Please cite as:
   pages     = {1-21},
   year      = {2022},
   DOI       = {10.1017/S135132492200002X},
-  url       = {https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/an-empirical-study-of-cyclical-learning-rate-on-neural-machine-translation/2485AAEE54A3870F221D5F7D98382C77}
 ```
