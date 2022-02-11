@@ -44,7 +44,7 @@ If you want to visualize the results of different batch size, you can use the ba
 Please cite as:
 
 ```
-@inproceedings{CLR_NMT,
+@article{CLR_NMT,
   author    = {Weixuan Wang and
                Choon Meng Lee and
                Jianfeng Liu and 
