@@ -1,4 +1,4 @@
-# This repository hosts our NLE submission of cyclic learning rate for NMT
+# cyclic learning rate for NMT
 In training deep learning networks, the optimizer and related learning rate are often used without much thought or with minimal tuning, even though it is crucial in ensuring a fast convergence to a good quality minimum of the loss function that can also generalize well on the test dataset. Drawing inspiration from the successful application of cyclical learning rate policy to computer vision tasks, we explore how cyclical learning rate can be applied to train transformer-based neural networks for neural machine translation.
 
 This repository includes all the code extending our initial implementation of cyclic learning rate for NMT, mainly based on the following two open source code
@@ -38,3 +38,23 @@ If you want to visualize the learning rate of range test, you can use the range_
 If you want to visualize the trend of BLEU score, you can use the bleu_visualization.ipynb after calculating the BLEU score
 
 If you want to visualize the results of different batch size, you can use the batch-exp.ipynb
+
+
+# Citation
+Please cite as:
+
+```
+@inproceedings{DBLP:conf/emnlp/WangPZL21,
+  author    = {Weixuan Wang and
+               Choon Meng Lee and
+               Jianfeng Liu and 
+               Talha Colakoglu and
+               Wei Peng},
+  title     = {An empirical study of cyclical learning rate on neural machine translation},
+  journal   = {Natural Language Engineering},
+  booktitle = {Cambridge University Press},
+  pages     = {1-21},
+  year      = {2022},
+  DOI       = {10.1017/S135132492200002X},
+  url       = {https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/an-empirical-study-of-cyclical-learning-rate-on-neural-machine-translation/2485AAEE54A3870F221D5F7D98382C77}
+```
